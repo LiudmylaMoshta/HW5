@@ -1,0 +1,269 @@
+@font-face {
+    font-family: Helios;
+    src: url("../fonts/HeliosExtThin-webfont.eot"),
+         url("../fonts/HeliosExtThin-webfont.ttf"),
+         url("../fonts/HeliosExtThin-webfont.woff"),
+         url("../fonts/HeliosExtThin-webfont.woff2");
+}
+@font-face {
+    font-family: afklampenborg-medium-webfont;
+    src: url("../fonts/afklampenborg-medium-webfont.eot"),
+         url("../fonts/afklampenborg-medium-webfont.ttf"),
+         url("../fonts/afklampenborg-medium-webfont.woff"),
+         url("../fonts/afklampenborg-medium-webfont.woff2");
+}
+.background {
+    height: 600px;
+    width: 100%;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient(#ced7d9, #ffffff);
+    background: -moz-linear-gradient(#ced7d9, #ffffff);
+    background: -ms-linear-gradient(#ced7d9, #ffffff);
+    background: -o-linear-gradient(#ced7d9, #ffffff);
+    background: linear-gradient(#ced7d9, #ffffff);
+    font-family: Arial;
+}
+.container {
+    width: 776px;
+    margin: 0 auto;
+}
+.registration_login {
+    font: 11px Arial;
+    background: #ffffff;
+    border-radius: 0 0 20px 20px;
+    width: 115px;
+    position: relative;
+    float: right;
+    padding: 7px 21px;
+}
+.registration {
+    color: #747474;
+    text-decoration: none;
+    border-right: 1px solid #959595;
+    padding-right: 8px;
+}
+.login {
+    color: #02a4fa;
+    text-decoration: none;
+    padding-left: 8px;
+}
+
+nav {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+nav > ul {
+    text-align: right;
+    text-decoration: none;
+    border-bottom: 1px solid #939598;
+    padding-right: 27px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin: 0 -3px -2px -1px;
+}
+nav > ul > li > a {
+    display: inline-block;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+    border-top: 1px solid #939598;
+    border-bottom: 1px solid #939598;
+    color: #939598;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient(#e5eaeb, #dad9d7);
+    background: -moz-linear-gradient(#e5eaeb, #dad9d7);
+    background: -ms-linear-gradient(#e5eaeb, #dad9d7);
+    background: -o-linear-gradient(#e5eaeb, #dad9d7);
+    background: linear-gradient(#e5eaeb, #dad9d7);
+}
+nav > ul > li.active > a {
+    border-bottom: none !important;
+    background: -webkit-linear-gradient(white, #ced7d9);
+    background: -moz-linear-gradient(white, #ced7d9);
+    background: -ms-linear-gradient(white, #ced7d9);
+    background: -o-linear-gradient(white, #ced7d9);
+    background: linear-gradient(white, #ced7d9);
+    color: #03a7fe;
+}
+
+nav > ul li:first-child > a {
+    border: 1px solid #939598;
+    border-top-left-radius: 30px;
+    padding: 18px 40px;
+}
+nav > ul li:last-child > a {
+    border-top-right-radius: 30px;
+    border: 1px solid #939598;
+    padding: 18px 40px;
+}
+
+.IT {
+    color: #646464;
+    font: 400 15px Helios;
+    text-align: right;
+    padding: 62px 27px 0;
+}
+.logo {
+    float: left;
+    /*padding-right: 101px;*/
+    margin-top: 41px;
+}
+.logo > a > img {
+    z-index: 100;
+}
+.logo_text {
+    width: 140px;
+    color: #939598;
+    font: 500 21px "A F Klampenborg";
+    line-height: 19px;
+    margin-left: 168px;
+    margin-top: -67px;
+}
+h2{
+    color: #010101;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-left: 250px;
+}
+.blue{
+    color: #03a7fe;
+    border-top:1.5px solid #00a7fb;
+    padding-top: 15px;
+    padding-left: 144px;
+    padding-bottom: 7px;
+}
+.category {
+    color: #03a7fe;
+    width: 117px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+ }
+.category:after {
+    content: url('../image/arrow_category.png');
+    padding-left: 8px;
+}
+
+
+.menu_left {
+    float: left;
+    width: 230px;
+}
+.menu_left> ul {
+    list-style-type: none;
+}
+.menu_left > .navigation> li+li {
+    border-top: 1px solid #c4c4c4;
+    width: 230px;
+
+}
+.menu_left >.navigation> li > a{
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+    text-decoration: none;
+}
+.menu_left >.navigation> li:before {
+    content: url('../image/arrow_list.png');
+    padding-right: 10px;
+}
+tr {
+    background:#dfe5e6;
+    border-bottom: 2px solid white;
+}
+td {
+    width: 163px;
+    color: #505050;
+    font: 400 12px Arial;
+    line-height: 33px;
+    padding-left: 8px;
+}
+table.ceo {
+    margin-bottom:15px;
+
+}
+.wider {
+    width: 218px;
+}
+
+.company_list {
+    list-style-type: none;
+    margin-left: 250px;
+}
+.company_list > li > table {
+    margin-left: 133px;
+}
+.img {
+   width: 102px;
+   float: left;
+   padding:0 10px;
+}
+.rss {
+    border-bottom: 1px solid #c4c4c4;
+    border-top: 1px solid #c4c4c4;
+    width: 230px;
+    padding: 15px 0;
+    text-align: center;
+}
+footer {
+   font-family: Arial;
+   font-size: 10px;
+   font-weight: 400;
+   border-top:1px solid #b5b5b7;
+   width: 100%;
+   border-top: 1px solid #b5b5b7;
+
+}
+table.ceo > tbody > tr > td > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+table.ceo > tbody >  tr{
+    border: none;
+}
+
+table.ceo > tbody >  tr:nth-child(even){
+    background-color: #eef1f2;
+}
+.compani_links > li  {
+    padding-bottom: 15px;
+}
+.compani_links {
+   margin-top: 30px;
+   text-align: center;
+}
+footer> div{
+    margin-left: 250px;
+    margin-right: 27px;
+    background-color: #d9dada;
+    padding: 10px 12px;
+    border-radius: 0 0 20px 20px;
+}
+footer> div:after{
+    content: url("../image/vector-smart-object.png");
+    text-align: right;
+    float:right
+}
+.twitter:before {
+    content: url("../image/twitter.png");
+    padding-right: 6px;
+}
+.tel:before {
+    content: url('../image/tel.png');
+    padding-right: 6px;
+}
+.skype:before {
+    content: url("../image/skype.png");
+    padding-right: 6px;
+}
+.mail:before {
+    content: url("../image/mail.png");
+    padding-right: 6px;
+}
